@@ -85,7 +85,7 @@ export default function Signup() {
             <div className="m-3">
               <label htmlFor="address" className="form-label">Address</label>
               <fieldset>
-                <input type="text" className="form-control" name='address' placeholder='"Click below for fetching address"' value={credentials.geolocation} onChange={onChange} aria-describedby="emailHelp" />
+                <input type="text" className="form-control" name='geolocation' placeholder='"Click below for fetching address"' value={credentials.geolocation} onChange={onChange} aria-describedby="emailHelp" />
               </fieldset>
             </div>
             <div className="m-3">
